@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  margin: auto;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  background-color: #F55A5A;
+  height: 55px;
+  /* outline: 3px solid greenyellow; */
+}
+
+.globe{
+  max-width: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.journal--headtitle{
+  /* padding: 20px auto; */
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.75px;
+  color: white;
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  margin: 45px 40px;
+}
+
+.card-grid{
+  display: grid;
+  margin-left: 19px;
+  margin-right: 40px;
+}
+
+.card-grid>nav{
+  display: flex;
+  font-size: 10px;
+  align-items: center;
+}
+
+.card-pinpoint{
+  max-width: 7px;
+}
+
+.card-imgloc{
+  max-height: 168px;
+  max-width: 125px;
+}
+
+.card-location{
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin: 0px 4px;
+}
+
+.card-gmaps-link{
+  vertical-align: baseline;
+  margin: auto 8px;
+  color: #918E9B;
+}
+
+.card-title{
+  margin: 7px 0px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.card-schedule{
+  margin-top: 11px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.card-desc{
+  margin-top: 9px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 10px;
+}
+
